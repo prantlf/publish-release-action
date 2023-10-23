@@ -12,7 +12,7 @@ Commit and push the changelog using the latest version written to it and create 
 - uses: prantlf/publish-release-action@v1
 ```
 
-Work only in specific release branches, run only if new version is detected in the commit messages by [prantlf/bump-version-action]:
+Work only in specific release branches, take care of changelog only and do not look for any platform-specific zip archives:
 
 ```yml
 jobs:
@@ -22,6 +22,9 @@ jobs:
     - uses: prantlf/setup-v-action@v2
     - run: ...
     - uses prantlf/publish-release-action@v1
+      with:
+        no-bump: true
+        no-archives: true
 ```
 
 ## Inputs
