@@ -2,7 +2,7 @@
 
 GitHub action for making and publishing changes related to versioning an for creating a new release.
 
-Uses tools [newchanges] and [vp]. Only platforms Linux, macOS, Windows on the architecture X64 are supported.
+Uses tools [newchanges] and [vp]. Only platforms Linux, macOS, Windows on architectures ARM64 and X64 are supported.
 
 ## Usage
 
@@ -44,6 +44,20 @@ Type: `Boolean`<br>
 Default: `true`
 
 Can be set to `false` to prevent this action from running. It's helpful in the pipeline, which will not continue releasing, but only building and testing, and that will be decided in the middle of a job execution.
+
+### no-node
+
+Type: `Boolean`<br>
+Default: `false`
+
+Set to `true` to ignore `package.json` and not handle the project as a Node.js package.
+
+### no-vlang
+
+Type: `Boolean`<br>
+Default: `false`
+
+Set to `true` not to ignore `v.mod` and not handle the project as a V package.
 
 ### no-bump
 
