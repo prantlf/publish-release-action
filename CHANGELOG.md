@@ -1,5 +1,11 @@
 # Changes
 
+## [1.5.0](https://github.com/prantlf/publish-release-action/compare/v1.4.0...v1.5.0) (2024-04-14)
+
+### Features
+
+* Add flag bump-major-0 ([ca46c95](https://github.com/prantlf/publish-release-action/commit/ca46c952ef24dddb1127bd3d68706fd3f5ea3ffb))
+
 ## [1.4.0](https://github.com/prantlf/publish-release-action/compare/v1.3.0...v1.4.0) (2024-02-11)
 
 ### Features
