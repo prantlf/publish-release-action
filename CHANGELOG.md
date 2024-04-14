@@ -1,5 +1,11 @@
 # Changes
 
+## [1.5.1](https://github.com/prantlf/publish-release-action/compare/v1.5.0...v1.5.1) (2024-04-14)
+
+### Bug Fixes
+
+* Work around with --bump-major-0 instead of -0 ([e3a0c1f](https://github.com/prantlf/publish-release-action/commit/e3a0c1f76239928645c78d340f56790d6970cb22))
+
 ## [1.5.0](https://github.com/prantlf/publish-release-action/compare/v1.4.0...v1.5.0) (2024-04-14)
 
 ### Features
