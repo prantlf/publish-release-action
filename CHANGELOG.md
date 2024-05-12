@@ -1,5 +1,11 @@
 # Changes
 
+## [1.6.0](https://github.com/prantlf/publish-release-action/compare/v1.5.1...v1.6.0) (2024-05-12)
+
+### Features
+
+* Support go modules ([210ee52](https://github.com/prantlf/publish-release-action/commit/210ee52ce5bbe0a6dad2245fd6e0b08820830510))
+
 ## [1.5.1](https://github.com/prantlf/publish-release-action/compare/v1.5.0...v1.5.1) (2024-04-14)
 
 ### Bug Fixes
