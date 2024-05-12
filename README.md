@@ -59,6 +59,13 @@ Default: `false`
 
 Set to `true` not to ignore `v.mod` and not handle the project as a V package.
 
+### no-golang
+
+Type: `Boolean`<br>
+Default: `false`
+
+Set to `true` not to ignore `go.mod` and not handle the project as a Go package.
+
 ### no-rust
 
 Type: `Boolean`<br>
