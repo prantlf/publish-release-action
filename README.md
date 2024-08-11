@@ -2,7 +2,7 @@
 
 GitHub action for making and publishing changes related to versioning an for creating a new release.
 
-Uses tools [newchanges] and [vp]. Only platforms Linux, macOS, Windows on architectures ARM64 and X64 are supported.
+Uses tools [newchanges] and [vp]. Only platforms Linux, macOS, Windows on architectures ARM64, RISCV64 and X64 are supported.
 
 ## Usage
 
