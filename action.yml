@@ -66,7 +66,6 @@ inputs:
   bump-files:
     description: >-
       Extra files in which to bump the version number, in addition to the package description file.
-    default: false
   dry-run:
     description: >-
       Can be set to `true` to only print what would be done without actually doing it.
@@ -170,9 +169,9 @@ runs:
         echo "bump to major 0 too"
         VP_OPTIONS="$VP_OPTIONS --bump-major-0"
       fi
-      if [[ "$PR_BUMP_FILES" == "true" ]]; then
+      if [[ "$PR_BUMP_FILES" != "" ]]; then
         echo "bump version in additional files: $PR_BUMP_FILES"
-        VP_OPTIONS="$VP_OPTIONS -b $BV_FILES"
+        VP_OPTIONS="$VP_OPTIONS -b $PR_BUMP_FILES"
       fi
       if [[ "$PR_DRY" == "true" ]]; then
         echo "dry-run enabled"
