@@ -129,6 +129,12 @@ Default: `false`
 
 Set to `true` to bump the major version also if it is 0.
 
+### bump-files
+
+Type: `String`<br>
+
+Extra files in which to bump the version number, in addition to the package description file.
+
 ### dry-run
 
 Type: `Boolean`<br>
