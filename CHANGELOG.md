@@ -1,5 +1,11 @@
 # Changes
 
+## [1.7.1](https://github.com/prantlf/publish-release-action/compare/v1.7.0...v1.7.1) (2024-08-17)
+
+### Bug Fixes
+
+* Correct the bump-file parameter handling ([c08e5ff](https://github.com/prantlf/publish-release-action/commit/c08e5ff1b896a4880e8f645feae76f64c4ab4961))
+
 ## [1.7.0](https://github.com/prantlf/publish-release-action/compare/v1.6.0...v1.7.0) (2024-08-17)
 
 ### Features
