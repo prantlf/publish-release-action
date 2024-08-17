@@ -1,5 +1,11 @@
 # Changes
 
+## [1.7.0](https://github.com/prantlf/publish-release-action/compare/v1.6.0...v1.7.0) (2024-08-17)
+
+### Features
+
+* Add flag bump-files ([19574be](https://github.com/prantlf/publish-release-action/commit/19574be172496b9417a3587558e68e85a906407d))
+
 ## [1.6.0](https://github.com/prantlf/publish-release-action/compare/v1.5.1...v1.6.0) (2024-05-12)
 
 ### Features
