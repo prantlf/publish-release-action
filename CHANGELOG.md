@@ -1,5 +1,11 @@
 # Changes
 
+## [1.8.0](https://github.com/prantlf/publish-release-action/compare/v1.7.1...v1.8.0) (2025-10-11)
+
+### Features
+
+* Add input no-npm-auth ([b81373e](https://github.com/prantlf/publish-release-action/commit/b81373e8cc1d61e21e4b529295ef2a999be9d5b4))
+
 ## [1.7.1](https://github.com/prantlf/publish-release-action/compare/v1.7.0...v1.7.1) (2024-08-17)
 
 ### Bug Fixes
