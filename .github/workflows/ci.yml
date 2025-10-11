@@ -15,7 +15,7 @@ jobs:
 
   release:
     if: ${{ github.ref_name == 'master' }}
-    runs-on: macos-13
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
     - uses: prantlf/publish-release-action@v1

@@ -122,6 +122,13 @@ Default: `false`
 
 Set to `true` not to upload platform archives automatically as release assets.
 
+### no-npm-auth
+
+Type: `Boolean`<br>
+Default: `false`
+
+Set to `true` not to do not require NPM in the process environment token and write it to .npmrc. This is needed if you use trusted publishers (OIDC) instead of NPM tokens.
+
 ### bump-major-0
 
 Type: `Boolean`<br>
