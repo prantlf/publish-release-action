@@ -151,7 +151,7 @@ Can be set to `true` to enable debug logging of the supporting tools. Debug logg
 
 ## License
 
-Copyright (C) 2023-2024 Ferdinand Prantl
+Copyright (C) 2023-2025 Ferdinand Prantl
 
 Licensed under the [MIT License].
 
