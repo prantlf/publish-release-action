@@ -9,7 +9,7 @@ Uses tools [newchanges] and [vp]. Only platforms Linux, macOS, Windows on archit
 Commit and push the changelog using the latest version written to it and create a new release:
 
 ```yml
-- uses: prantlf/publish-release-action@v1
+- uses: prantlf/publish-release-action@v2
 ```
 
 Work only in specific release branches, take care of changelog only and do not look for any platform-specific zip archives:
@@ -18,10 +18,10 @@ Work only in specific release branches, take care of changelog only and do not l
 jobs:
   build:
     steps:
-    - uses: actions/checkout@v4
-    - uses: prantlf/setup-v-action@v2
+    - uses: actions/checkout@v7
+    - uses: prantlf/setup-v-action@v4
     - run: ...
-    - uses prantlf/publish-release-action@v1
+    - uses prantlf/publish-release-action@v2
       with:
         no-bump: true
         no-archives: true

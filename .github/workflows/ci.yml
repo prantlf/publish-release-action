@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v7
-    - uses: prantlf/publish-release-action@v1
+    - uses: prantlf/publish-release-action@v2
       with:
         no-bump: true
         no-archives: true
